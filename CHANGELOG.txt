@@ -1,1 +1,14 @@
+Changelog
 
+v1.0
+- Giao diện đăng nhập
+- Giao diện đăng ký bệnh nhân
+- Giao diện đăng ký bác sỹ
+- Giao diện cập nhật thông tin bác sỹ
+- Giao diện cập nhật thông tin bệnh nhân
+- Giao diện thêm mới lịch hẹn
+- Giao diện cập nhật lịch hẹn
+- Giao diện chat bot AI
+- Chức năng đăng nhập.
+- Kết nối với service [Service-StrapiCotent](https://github.com/trungthanhcva2206/Service-StrapiCotent) để hoàn thiện các chức năng đăng ký bệnh nhân, bác sỹ; cập nhật thông tin bác sỹ, bệnh nhân; thêm mới, cập nhật lịch hẹn.
+- Kết nối với service [Service-ChatBot](https://github.com/trungthanhcva2206/Service-ChatBot) để hoàn thiện chức năng chat bot để hỗ trợ lễ tân có thể lựa chọn bác sỹ khám cho bệnh nhân dựa vào các mô tả về sức khỏe của bệnh nhân
