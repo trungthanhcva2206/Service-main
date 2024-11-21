@@ -23,8 +23,8 @@ Nền tảng công nghệ LCDP sử dụng: **Budibase**
 ## Hướng dẫn cài đặt
 ### 1. Yêu cầu hệ thống  
 - **Budibase**: Phiên bản >=3.0
-- **[Service-StrapiCotent](https://github.com/trungthanhcva2206/Service-StrapiCotent)**
-- **[Service-ChatBot](https://github.com/trungthanhcva2206/Service-ChatBot)**
+- **[Service-StrapiCotent](https://github.com/trungthanhcva2206/Service-StrapiCotent)**: Đã được cài đặt
+- **[Service-ChatBot](https://github.com/trungthanhcva2206/Service-ChatBot)**: Đã được cài đặt
 
 ### 2. Cài đặt dữ án
 #### Bước 1: Tải mã nguồn từ bản phát hành
@@ -34,18 +34,12 @@ Nền tảng công nghệ LCDP sử dụng: **Budibase**
    - `Source code (zip)` hoặc
    - `Source code (tar.gz)`.
 
-#### Bước 2: Giải nén và truy cập thư mục
-```bash
-# Giải nén file đã tải
-unzip Service-ChatBot.zip
-cd Service-ChatBot
-```
-#### Bước 3: Import vô N8N 
-1. Tạo 1 workflow trong N8N
-2. Import file Agent.json, file này lấy được ở trong thư mục Service-ChatBot
+#### Bước 2: Import vô Budibase 
+1. Truy cập vô Budibase, import tệp vừa tải vô.
 
-#### Bước 4: Chỉnh sửa các tài khoản dịch vụ
-Ở trong các node OpenAI, Pinecone sẽ có phần **Credential to connect with**, có thể chỉnh sửa các tài khoản dịch vụ của mình ở đây. 
+#### Bước 3: Lưu ý
+1. Ở phần Data: Các API BackEnd chỉnh sửa lại host theo [Service-StrapiCotent](https://github.com/trungthanhcva2206/Service-StrapiCotent) đã được cài đặt trước đó.
+2. Ở phần automation: Các webhook N8N chỉnh sửa lại theo [Service-ChatBot](https://github.com/trungthanhcva2206/Service-ChatBot) đã được cài đặt trước đó.
 
 ## Tác giả
 - Nguyễn Lê Trung Thành
