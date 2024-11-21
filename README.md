@@ -31,8 +31,7 @@ Nền tảng công nghệ LCDP sử dụng: **Budibase**
 1. Truy cập trang phát hành chính thức tại: [Releases](https://github.com/trungthanhcva2206/Service-main/releases).
 2. Chọn phiên bản phù hợp với nhu cầu của bạn.
 3. Trong phần **Assets**, tải tệp:
-   - `Source code (zip)` hoặc
-   - `Source code (tar.gz)`.
+   - My first app-export-1732037496789.tar.gz
 
 #### Bước 2: Import vô Budibase 
 1. Truy cập vô Budibase, import tệp vừa tải vô.
